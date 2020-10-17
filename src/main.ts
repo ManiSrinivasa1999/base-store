@@ -13,6 +13,9 @@ import {
   faChevronRight,
   faChevronLeft,
   faSearch,
+  faUser,
+  faEnvelope,
+  faSignOutAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faStaylinked,
@@ -26,6 +29,7 @@ import vuetify from './plugins/vuetify';
 
 library.add(
   faBars,
+  faSignOutAlt,
   faHome,
   faPhoneAlt,
   faHeadSideMask,
@@ -38,6 +42,8 @@ library.add(
   faChevronRight,
   faChevronLeft,
   faSearch,
+  faUser,
+  faEnvelope,
 );
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
